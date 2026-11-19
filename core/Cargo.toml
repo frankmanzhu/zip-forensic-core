@@ -53,7 +53,7 @@ forensic-vfs = { version = "0.1", optional = true }
 # `cargo tree -p zip-core -e normal` is free of *-sys. This is the milestone that
 # removes the three C-FFI libs (bzip2-sys/zstd-sys/lzma-sys) from the fleet build.
 [dev-dependencies]
-zip = "9.0.5"
+zip = "=9.6.1"
 tempfile = "3"
 
 [lints]
